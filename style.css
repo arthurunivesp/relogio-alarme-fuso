@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.clock {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.time {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.alarm {
+    margin-top: 20px;
+}
+
+.alarm input {
+    padding: 5px;
+    font-size: 1rem;
+}
+
+.alarm button {
+    padding: 5px 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.flags {
+    margin-top: 20px;
+}
+
+.flags img {
+    width: 50px;
+    margin: 0 10px;
+    cursor: pointer;
+}
